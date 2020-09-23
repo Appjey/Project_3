@@ -9,6 +9,9 @@ public class MovableRectangle implements Movable{
     }
 
     public void moveUp() {}
+
+    @Override
+    public void moveUP() {}
     public void moveDown() {}
     public void moveLeft() {}
     public void moveRight() {}
